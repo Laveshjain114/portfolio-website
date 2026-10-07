@@ -139,6 +139,28 @@
 
     <article class="project reveal">
       <div class="project-media">
+        <div class="browser"><div class="bar"><i></i><i></i><i></i><span></span></div>
+          <img src="assets/arbitrage-dashboard.jpg" alt="Multi-broker arbitrage simulator live dashboard" loading="lazy" width="1400" height="875"></div>
+      </div>
+      <div class="project-body">
+        <span class="tag violet">Live project</span>
+        <h3>Multi-Broker NSE/BSE Arbitrage Simulator</h3>
+        <p>A real-time trading platform that spots price gaps for the same stock on NSE and BSE across two broker accounts, subtracts every Indian trading charge, and executes both sides automatically. Everything is simulated: the market feed, the broker accounts and the orders, with no real money.</p>
+        <ul class="ticks">
+          <li>Live dashboard updating every 500 ms over WebSockets</li>
+          <li>Simulated order management with latency, slippage and margin checks</li>
+          <li>Handles one-sided fills, risk limits and a daily loss stop</li>
+          <li>Trade and order history in PostgreSQL, 15 automated tests</li>
+        </ul>
+        <div class="tech"><span>Python</span><span>FastAPI</span><span>WebSockets</span><span>React</span><span>TypeScript</span><span>PostgreSQL</span><span>Docker</span></div>
+        <a class="link" href="https://arbitrage-simulator.onrender.com/" target="_blank" rel="noopener">Open live demo →</a>
+        &nbsp;&nbsp;
+        <a class="link" href="https://github.com/Laveshjain114/arbitrage-simulator" target="_blank" rel="noopener">View code →</a>
+      </div>
+    </article>
+
+    <article class="project reverse reveal">
+      <div class="project-media">
         <img class="shot" src="assets/pos-architecture.jpg" alt="Cloud POS system architecture" loading="lazy" width="1280" height="720">
       </div>
       <div class="project-body">
@@ -155,7 +177,7 @@
       </div>
     </article>
 
-    <article class="project reverse reveal">
+    <article class="project reveal">
       <div class="project-media">
         <img class="shot" src="assets/foxxstox.jpg" alt="FoxxStox Django store overview" loading="lazy" width="1280" height="720">
       </div>
