@@ -98,7 +98,7 @@ ul, ol { list-style: none; }
 .project.reverse .project-media { order: 2; }
 .shot { border-radius: 16px; box-shadow: var(--shadow); border: 1.5px solid var(--line); }
 .tag { display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; padding: 5px 12px; border-radius: 999px; }
-.tag.green { background: #dcfce7; color: #15803d; } .tag.pink { background: #fde7f1; color: #be185d; } .tag.orange { background: #ffedd5; color: #c2410c; }
+.tag.green { background: #dcfce7; color: #15803d; } .tag.pink { background: #fde7f1; color: #be185d; } .tag.orange { background: #ffedd5; color: #c2410c; } .tag.violet { background: #f1ecff; color: #6d28d9; }
 .project h3 { font-size: clamp(22px, 2.4vw, 28px); font-weight: 800; line-height: 1.2; margin: 14px 0 12px; }
 .project p { color: var(--muted); margin-bottom: 16px; }
 .ticks li { position: relative; padding-left: 28px; margin-bottom: 8px; font-weight: 500; }
